@@ -25,13 +25,27 @@
         }
 
         .photo-group {
+            max-width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
             border: 2px solid #333;
             margin-bottom: 20px;
-            padding: 10px;
         }
 
         .photo-group h2 {
             margin-bottom: 10px;
+        }
+
+        .photo {
+            max-width: calc(100% - 40px); /* 100% - total horizontal margin */
+            max-height: 90vh; /* Set a fixed height */
+            object-fit: contain;
+            display: block; /* Make images block-level */
+            margin: 10px; /* Thin margin between images */
         }
 
         footer {
@@ -48,22 +62,12 @@
         a:hover {
             text-decoration: underline;
         }
-
-            style=";
-            img {
-            max-width: 80%;
-            max-height: 90vh; /* Set a fixed height */
-            object-fit: contain;
-            display: block; /* Make images block-level */
-            margin: 0 auto; /* Center a  div*/
-            margin-bottom: 20px;
-        }
     </style>
 </head>
 <body>
 
     <header>
-        Aidan's Potos Thingy Mo Babbers:)
+        Aidan's Poto Thingy Mo Babbers:)
     </header>
 
 <section>
