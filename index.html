@@ -23,6 +23,16 @@
             padding: 20px;
         }
 
+        .photo-group {
+            border: 2px solid #333;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+
+        .photo-group h2 {
+            margin-bottom: 10px;
+        }
+
         footer {
             background-color: #333;
             padding: 10px;
@@ -46,15 +56,21 @@
     </header>
 
     <section>
-        <p>Check out my bodacious photos below:</p>
+        <div class="photo-group">
+            <h2>Summer 2023</h2>
+            <!-- Display the bee image -->
+            <img src="bee.png" alt="Bee Image" style="max-width: 100%; height: auto; margin-bottom: 20px;">
+            <!-- Display the tree image -->
+            <img src="landscape.png" alt="Muir Beach Image" style="max-width: 100%; height: auto;">
+            <!-- You can add more images or customize the layout as needed -->
+        </div>
 
-        <!-- Display the bee image -->
-        <img src="bee.png" alt="Bee Image" style="max-width: 100%; height: auto; margin-bottom: 20px;">
-
-        <!-- Display the tree image -->
-        <img src="landscape.png" alt="Muir Beach Image" style="max-width: 100%; height: auto;">
-
-        <!-- You can add more images or customize the layout as needed -->
+        <div class="photo-group">
+            <h2>12/3/2023</h2>
+            <!-- Add your 20 new photos here -->
+            <img src="photo1.jpg" alt="Photo 1" style="max-width: 100%; height: auto; margin-bottom: 20px;">
+            <!-- Repeat the above line for each new photo -->
+        </div>
     </section>
 
     <footer>
